@@ -1,0 +1,371 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(1, 0, 36) 0%, rgba(40,40,101,1) 0%,
+     rgb(85, 135, 200) 0%);
+     padding-top: 60px;
+     padding-bottom: 100px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+}
+
+.offer_title {
+    width: 700px;
+    animation: backInLeft;
+    animation-duration: 3s;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.title_span {
+
+    font-size:48px;
+    letter-spacing: 2px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.text {
+font-size: 16px;
+width: 360px;
+margin-top: 20px;
+margin-bottom: 40px;
+font-family: sans-serif;
+}
+
+.tch {
+    width: 220px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(248, 224, 4);
+    transition: all 0.5;
+    box-shadow: 10px 10px 10px rgb(90, 150, 241);
+    animation-name: link;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes link {
+    0% {
+        background-color: rgb(248, 224, 4);
+    }
+
+    25% {
+        background-color: rgb(0, 255, 68);
+    }
+
+    50% {
+        background-color: rgb(0, 255, 229);
+    }
+
+    75% {
+        background-color: rgb(255, 119, 0);
+    }
+
+    100% {
+        background-color: rgb(191, 255, 0);
+    }
+}
+
+.tch:hover {
+    background-color: rgb(255, 230, 0);
+    box-shadow: 10px 10px 10px rgb(196, 196, 196);
+}
+
+.header_img {
+    width: 480px;
+}
+
+
+/*Вторая секция*/
+
+.main {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.main_title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: sans-serif;
+    animation: zoomInDown;
+    animation-duration: 7s;
+}
+
+.main_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocks {
+    text-align: center;
+    width: 300px;
+    font-family: sans-serif;
+}
+
+.button {
+    background-color: rgb(67, 67, 216);
+    border-radius: 40px;
+    line-height: 30px;
+    transition: all 0.5;
+}
+
+.button:hover {
+    background-color: rgb(38, 38, 153);
+    color: white;
+}
+
+.blocks img {
+    margin-bottom: 20px;
+}
+
+/* Третья часть*/
+
+.form_order {
+    background-color: rgb(234, 234, 242);
+    height: 400px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.main_title2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+}
+
+.form_field {
+    width: 390px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form_field input {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.field {
+    margin: 5px;
+    width: 350px;
+    height: 35px;
+}
+
+.bch {
+    width: 350px;
+    height: 40px;
+    margin-top: 5px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(248, 224, 4);
+}
+
+.bch:hover {
+    background-color: rgb(255, 230, 0);
+    box-shadow: 10px 10px 10px rgb(196, 196, 196);
+}
+
+
+/*Четвертая секция*/
+
+.form_main {
+    background-color: rgb(226, 226, 226);
+    height: 400px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.main_title3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 60px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    animation-name: tlt;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    margin-top: 0px;
+
+}
+
+@keyframes tlt {
+    0% {
+        margin-left: -5%;
+    }
+
+    50% {
+        margin-left: 5%;
+    }
+
+    100% {
+        margin-left: -5%;
+    }
+}
+
+.form_field {
+    width: 390px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form_field input {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.field {
+    margin: 5px;
+    width: 350px;
+    height: 35px;
+}
+
+.bch2 {
+    width: 350px;
+    height: 40px;
+    margin-top: 5px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(248, 224, 4);
+    transition-property: background-color, color;
+    transition-duration: 3s, 0.5s;
+}
+
+.bch2:hover {
+    background-color: rgb(255, 230, 0);
+    box-shadow: 10px 10px 10px rgb(196, 196, 196);
+    cursor: pointer;
+}
+
+/*Четвертая часть*/
+
+.inf {
+    background: rgb(82,82,182);
+    background: linear-gradient(0deg, rgba(82,82,182,1) 0%, rgba(85,181,200,1) 48%, rgba(68,61,191,1) 100%);
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+.title3 {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.error {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight:900;
+}
+
+.invalid {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight:900;
+}
+
+/*Media запросы CSS для адаптации страницы*/
+/* Extra large devices (large desktops, 1200px and up)*/
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+
+    .offer_title {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .header_img {
+        margin-top: 40px;
+        width: 45%;
+    }
+
+    .main_block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blocks {
+        margin-top: 40px;
+    }
+
+    .text {
+        width: 100%;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+    .offer_title {
+        width: 80%;
+    }
+    .main_title2 {
+        font-size: 24px;
+    }
+    .main_title3 {
+        font-size: 24px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (max-width: 576px) {
+    .container {width: 90%;}
+    .title {font-size: 20px;}
+    .title_span {font-size: 40px;}
+    .main_title2{font-size: 24px;}
+    .main_title3 {font-size: 24px;}
+}
